@@ -1,0 +1,13 @@
+{
+  "name": "rt3-calculadora",
+  "version": "1.0.0",
+  "description": "Exercício RT3 - Módulos e classes em TypeScript",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "author": "Julia da Rosa Silva",
+  "license": "MIT",
+  "type": "commonjs"
+}

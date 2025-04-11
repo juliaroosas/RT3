@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var calculadora_1 = require("./calculadora");
+var calc = new calculadora_1.Calculadora();
+var a = 10;
+var b = 2;
+console.log("Soma:", calc.somar(a, b));
+console.log("Subtração:", calc.subtrair(a, b));
+console.log("Multiplicação:", calc.multiplicar(a, b));
+console.log("Divisão:", calc.dividir(a, b));
